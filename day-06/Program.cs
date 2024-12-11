@@ -12,6 +12,7 @@ var reader = new DataReader(dataFile);
 var grid = reader.LoadFile();
 
 var sw = new Stopwatch();
+sw.Start();
 var partOneSolver = new PartOneSolver((Grid)grid.Clone());
 var resultPart1 = partOneSolver.GetDistinctPositions();
 Console.WriteLine($"Part one result: {resultPart1} ({sw.ElapsedMilliseconds}ms)");
