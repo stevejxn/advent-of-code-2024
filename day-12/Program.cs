@@ -1,6 +1,4 @@
 ﻿using System.Diagnostics;
-using System.Security.Principal;
-
 Console.WriteLine("Starting Day 12");
 
 // run with the test data
